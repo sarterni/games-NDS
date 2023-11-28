@@ -30,8 +30,9 @@
  }
 
  div.status-progress {
-     display: inline-block;
-     vertical-align: top;
+     position: absolute;
+     top: 50px;
+     right: 50px;
      height: 175px;
      width: 250px;
      margin-left: 50px;
@@ -58,6 +59,7 @@
 
  div.all-button {
      width: fit-content;
+     margin-top: 50px;
      margin-left: auto;
      margin-right: auto;
 
