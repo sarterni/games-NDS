@@ -105,3 +105,16 @@
      background-color: black;
      color: white;
  }
+
+
+ div.all-button div#firstrow {
+     margin-bottom: 10px;
+ }
+
+ div.all-button div#secondrow {
+     margin-bottom: 10px;
+ }
+
+ div.all-button div#thirdrow {
+     margin-bottom: 10px;
+ }
