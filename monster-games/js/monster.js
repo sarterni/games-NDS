@@ -96,16 +96,17 @@ window.addEventListener("load", () => {
         fightbtn.addEventListener("click", () => {
             const damage = hasard(1, 3);
             monstre.life -= damage;
-            log("Le monstre a subi " + damage + " dégats");
+            log("Le monstre a subi " + damage + " dégâts");
             if (monstre.life <= 0) {
                 log("Le monstre est mort");
                 monstre.awake = false;
             }
             displayStatus();
-        })
+        });
     }
+    
 
-
+    
     function work() {
         const workbtn = document.getElementById("workbtn");
         workbtn.addEventListener("click", () => {
@@ -113,13 +114,13 @@ window.addEventListener("load", () => {
                 const gain = hasard(1, 3);
                 monstre.money += gain;
                 log("Le monstre a gagné " + gain + " pièces d'or");
-            }
-            else {
+            } else {
                 log("Le monstre est mort");
             }
             displayStatus();
-        })
+        });
     }
+    
 
 
     function eat() {
