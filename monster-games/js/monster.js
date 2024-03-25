@@ -85,9 +85,9 @@ window.addEventListener("load", () => {
             displayStatus();
         });
     }
-    
 
-    
+
+
 
 
 
@@ -104,9 +104,9 @@ window.addEventListener("load", () => {
             displayStatus();
         });
     }
-    
 
-    
+
+
     function work() {
         const workbtn = document.getElementById("workbtn");
         workbtn.addEventListener("click", () => {
@@ -120,7 +120,7 @@ window.addEventListener("load", () => {
             displayStatus();
         });
     }
-    
+
 
 
     function eat() {
@@ -130,13 +130,13 @@ window.addEventListener("load", () => {
                 monstre.money -= 2;
                 monstre.life += 2;
                 log("Le monstre a mangé et gagné 2 points de vie");
-            }
-            else {
+            } else {
                 log("Le monstre n'a pas assez d'argent");
             }
             displayStatus();
-        })
+        });
     }
+
 
 
 
