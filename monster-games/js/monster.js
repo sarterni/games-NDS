@@ -146,30 +146,29 @@ window.addEventListener("load", () => {
             if (monstre.awake) {
                 monstre.life += 1;
                 log("Le monstre a gagné 1 point de vie");
-            }
-            else {
+            } else {
                 log("Le monstre est mort");
             }
             displayStatus();
-        })
-
+        });
     }
+    
     function show() {
-        init("Cerbère", 4, 1, true);
-        const show = document.getElementById("showbtn");
-        show.addEventListener("click", () => {
+        const showbtn = document.getElementById("showbtn");
+        showbtn.addEventListener("click", () => {
+            init("Cerbère", 4, 1, true);
             showme();
-        }
-        )
+        });
     }
+    
 
     function newlife() {
         const newlifebtn = document.getElementById("newlife-btn");
         newlifebtn.addEventListener("click", () => {
             init("Cerbère", 4, 1, true);
-            log("C'est parti")
+            log("C'est parti");
             displayStatus();
-        })
+        });
     }
 
     function kill() {
@@ -179,23 +178,23 @@ window.addEventListener("load", () => {
             monstre.awake = false;
             log("Le monstre est mort");
             displayStatus();
-        })
+        });
     }
+    
 
     function darkModeFunction() {
         var element = document.body;
         element.classList.toggle("dark-mode");
     }
-
-
+    
     function darkmode() {
         const darkmodebtn = document.getElementById("darkmode-btn");
         darkmodebtn.addEventListener("click", () => {
             darkModeFunction();
-        })
+        });
     }
 
-
+    
     function changeColor(life) {
         if (life <= 0) {
             document.getElementById("monster").style.backgroundColor = "red";
