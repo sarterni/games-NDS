@@ -81,11 +81,13 @@ window.addEventListener("load", () => {
         const startbtn = document.getElementById("runbtn");
         startbtn.addEventListener("click", () => {
             init("Cerbère", 4, 1, true);
-            log("C'est parti")
+            log("C'est parti");
             displayStatus();
-        })
-
+        });
     }
+    
+
+    
 
 
 
