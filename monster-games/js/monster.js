@@ -72,7 +72,6 @@ window.addEventListener("load", () => {
     document.addEventListener("click", show);
     document.addEventListener("click", newlife);
     document.addEventListener("click", kill);
-    document.addEventListener("click", darkmode);
 
 
 
@@ -186,13 +185,10 @@ window.addEventListener("load", () => {
         var element = document.body;
         element.classList.toggle("dark-mode");
     }
-    
-    function darkmode() {
-        const darkmodebtn = document.getElementById("darkmode-btn");
-        darkmodebtn.addEventListener("click", () => {
-            darkModeFunction();
-        });
-    }
+
+    const darkModeButton = document.getElementById("darkmode-btn");
+    darkModeButton.addEventListener("click", darkModeFunction);
+
 
     
     function changeColor(life) {
