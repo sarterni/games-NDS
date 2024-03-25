@@ -1,19 +1,19 @@
 
-// const monstre = {
-//      "name": "demo",
-//      "life": 4,
-//      "money": 1,
-//      "awake": true 
-//    };
 
 
 
-//   const monstre: {
-//     name: string;
-//     life: number;
-//     money: number;
-//     awake: boolean;
-// }
+
+
+
+
+
+
+
+
+
+
+
+
 "use strict";
 window.addEventListener("load", () => {
     console.log("hello");
@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
         monstre.money = m;
         monstre.awake = a;
     }
-    // ça marche 
+    
     function showme() {
         alert("name: " + monstre.name + "\nlife: " + monstre.life + "\nmoney: " + monstre.money + "\nawake: " + monstre.awake);
 
@@ -46,7 +46,7 @@ window.addEventListener("load", () => {
 
 
 
-    function hasard(min, max) { // fonction qui retourne un nombre aléatoire entre min et max 
+    function hasard(min, max) { 
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
@@ -216,7 +216,7 @@ window.addEventListener("load", () => {
 
 
 
-    // permet de jouer au jeu au clavier
+    
     document.addEventListener("keypress", function (event) {
         if (event.key === "h") {
             event.preventDefault();
