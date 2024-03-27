@@ -57,6 +57,10 @@ div.search-bar button {
     cursor: pointer;
 }
 
+div.search-bar button:hover {
+    background-color: #ff0000;
+}
+
 div.emissions img {
     width: 100px;
     height: 100px;
@@ -84,6 +88,10 @@ button.watch {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+button.watch:hover {
+    background-color: #ff0000;
 }
 
 p.date {
