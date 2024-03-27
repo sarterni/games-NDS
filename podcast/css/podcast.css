@@ -1,15 +1,32 @@
-div.logo{
-    width: 700px;
-    height: 300px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7c590;
+
+}
+
+div.logo {
+    width: 550px;
+    height: 150px;
     background-color: #f8f8f8;
     border: 1px solid #e7e7e7;
     border-radius: 5px;
     box-shadow: 0 0 5px #e7e7e7;
 
 }
+
+
 div.logo img {
-    width: 10%;
-    height: 10%;
+    width: 100px;
+    height: 100px;
     float: left;
     margin-right: 25px;
+}
+
+div.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
