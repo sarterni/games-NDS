@@ -103,6 +103,19 @@ div.infos {
     align-items: center;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.a-propos,
+.equipe {
+    width: 50%; /* Each div takes up 50% of the container */
+    box-sizing: border-box; /* Include padding and border in width */
+    padding: 20px; /* Add some padding */
+}
+
 div.a-propos {
     width: 400px;
     height: auto;
