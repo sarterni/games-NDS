@@ -103,6 +103,11 @@ div.infos {
     align-items: center;
 }
 
+div.infos > * {
+    margin: 10px;
+}
+
+
 .container {
     display: flex;
     flex-wrap: wrap;
