@@ -124,3 +124,47 @@ div.a-propos p {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+div.equipe {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: auto;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.membre .post,
+.membre .text {
+    margin: 5px 0;
+}
+
+
+div.membre button.follow-me {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    background-color: #d51b1b;
+    color: #e7e7e7;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
