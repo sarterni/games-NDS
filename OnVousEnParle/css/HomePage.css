@@ -1,6 +1,6 @@
 body {
     font-family: Alrial, sans-serif;
-background: linear-gradient(180deg, #C8DBFF, #96AEDD, #6481BB, #325499, #002776);
+    background: linear-gradient(180deg, #C8DBFF, #96AEDD, #6481BB, #325499, #002776);
 }
 
 div.logo {
@@ -53,16 +53,14 @@ div.search-bar input {
 div.search-bar button {
     font-size: 14px;
     color: white;
-    background-color: #d51b1b;
+    background-color: #764f00;
     border: 1px solid #e7e7e7;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-div.search-bar button:hover {
-    background-color: #ff0000;
-}
+
 
 div.emissions img {
     width: 100px;
@@ -81,12 +79,13 @@ div.emissions {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 button.watch {
     font-size: 14px;
     color: white;
-    background-color: #d51b1b;
+    background-color: #764f00;
     border: 1px solid #e7e7e7;
     border-radius: 5px;
     padding: 10px 20px;
@@ -94,7 +93,11 @@ button.watch {
 }
 
 button.watch:hover {
-    background-color: #ff0000;
+    background-color: #b57900;
+}
+
+div.search-bar button:hover {
+    background-color: #b57900;
 }
 
 p.date {
@@ -106,7 +109,7 @@ div.infos {
     align-items: center;
 }
 
-div.infos > * {
+div.infos>* {
     margin: 10px;
 }
 
@@ -119,9 +122,12 @@ div.infos > * {
 
 .a-propos,
 .equipe {
-    width: 50%; /* Each div takes up 50% of the container */
-    box-sizing: border-box; /* Include padding and border in width */
-    padding: 20px; /* Add some padding */
+    width: 50%;
+    /* Each div takes up 50% of the container */
+    box-sizing: border-box;
+    /* Include padding and border in width */
+    padding: 20px;
+    /* Add some padding */
 }
 
 div.a-propos {
