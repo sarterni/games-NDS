@@ -30,12 +30,15 @@ div.search-bar {
     flex-direction: row;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #f8f8f8;
     border: 1px solid #e7e7e7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
+
 }
 
 div.search-bar input {
@@ -199,4 +202,3 @@ div.membre button.follow-me {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
